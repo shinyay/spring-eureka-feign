@@ -1,4 +1,4 @@
-# Name
+# Spring Feign with Eureka
 
 Overview
 
@@ -14,6 +14,28 @@ Overview
 ## Requirement
 
 ## Usage
+
+### Run Eureka Server
+
+- [shinyay/spring-eureka-server](https://github.com/shinyay/spring-eureka-server)
+
+```
+./gradlew clean bootRun -x test
+```
+
+### Run Eureka Client with Random Port
+
+- [shinyay/spring-eureka-kotlin](https://github.com/shinyay/spring-eureka-kotlin)
+
+```
+./gradlew clean bootRun -x test
+```
+
+### Feign Client
+
+```
+./gradlew clean bootRun -x test
+```
 
 ## Installation
 
