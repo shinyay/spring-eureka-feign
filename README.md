@@ -39,6 +39,12 @@ Overview
 ./gradlew clean bootRun -x test
 ```
 
+### Access Application
+
+```
+$ curl http://localhost:8080/greeting
+```
+
 ## Installation
 
 ## Licence
